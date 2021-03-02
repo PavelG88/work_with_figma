@@ -6,16 +6,16 @@ body {
 
 .wrapper {
     padding: 91px 124px;
-    max-width: 1600px;
+    max-width: 1440px;
     margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
 }
 
 h1 {
     font-size: 55px;
     line-height: 101.38%;
 }
-
-
 
 .block-text {
     width: 662px;
@@ -39,3 +39,41 @@ h1 {
     top: 226px;
 }
 
+.block-image2 img:first-child {
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 157px;
+    top: 857px;
+}
+
+.block-image2 img:last-child{
+    position: absolute;
+    width: 232px;
+    height: 203px;
+    left: 124px;
+    top: 670px;
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 130%;
+}
+
+.block-info {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 488px;
+    top: 740px;
+}
+
+.block-info-item {
+    width: 150px;
+    padding-right: 95px;
+}
+
+.block-info-item p {
+    font-size: 18px;
+    line-height: 130%;
+}
