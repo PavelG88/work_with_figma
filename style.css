@@ -81,7 +81,7 @@ h2 {
 @media (max-width: 1400px) {
     
     .wrapper {
-        width: 834px;
+        max-width: 834px;
         padding: 56px 72px;
     }
 
@@ -95,7 +95,6 @@ h2 {
     }
     
     .block-image img:first-child {
-        position: absolute;
         width: 211.98px;
         height: 34.17px;
         left: 550.39px;
@@ -103,7 +102,6 @@ h2 {
     }
     
     .block-image img:last-child{
-        position: absolute;
         width: 181.86px;
         height: 182.44px;
         left: 565.45px;
@@ -138,4 +136,66 @@ h2 {
         font-size: 11px;
         line-height: 130%;
     }
+}
+
+@media (min-width: 375px) and (max-width: 830px) {
+    
+    .wrapper {
+        max-width: 375px;
+        padding: 56px 30.53px 124px 36px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+    
+    .block-text {
+        width: 308.47px;
+        font-size: 12px;
+    }
+    
+    .block-image img:first-child {
+        width: 170.55px;
+        height: 160.29px;
+        left: 101px;
+        top: 417px;
+    }
+    
+    .block-image img:last-child{
+        width: 170.55px;
+        height: 160.29px;
+        left: 101px;
+        top: 338px;
+    }
+    
+    .block-image2 {
+        display: none;
+    }
+    
+    h2 {
+        font-size: 12px;
+        line-height: 130%;
+    }
+    
+    .block-info {
+        width: 261.22px;
+        margin-top: 225px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: static;
+    }
+    
+    .block-info-item {
+        width: 86px;
+        padding-bottom: 30px;       
+    }
+
+    .block-info-item:nth-child(2) {
+        width: 86.89px;
+    }
+    
+    .block-info-item p {
+        font-size: 10px;
+        line-height: 130%;
+    }    
 }
